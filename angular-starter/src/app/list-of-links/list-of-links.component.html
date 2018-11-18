@@ -1,0 +1,5 @@
+<ul *ngIf="items?.length">
+  <li *ngFor="let item of items">
+    <h2><a target="_blank" rel="noopener" [href]="item.href">{{ item.label }}</a></h2>
+  </li>  
+</ul>
